@@ -4,7 +4,7 @@
 var server=require("./server");
 var routter=require("./routes/router");
 var requestHandlers=require("./comment/requestHandlers");
-var handle={};;;
+var handle={};
 handle["/"]=requestHandlers.start;
 handle["/start"]=requestHandlers.start;
 handle["/upload"]=requestHandlers.upload;
